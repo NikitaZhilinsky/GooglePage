@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		Google
+	</title>
+	<link rel="shortcut icon" href="goologo.png" type="image/png">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<content>
+		<div class="navibar">
+			<div class="mail">
+				<a href="https://www.google.com/intl/ru/gmail/about/#" class="bar_item">Почта</a>
+			</div>
+			<div class="pictures">
+				<a href="https://www.google.by/imghp?hl=ru&tab=wi&ogbl" class="bar_item">Картинки</a>
+			</div>
+			<div class="menu" onclick="myFunction()">
+					<img class="grid" src="grid.svg">
+			</div>
+			</script>
+			<div class="account">
+				<a href="https://accounts.google.com/signin/v2/identifier?hl=ru&passive=true&continue=https%3A%2F%2Fwww.google.by%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="bar_acc">Войти</a>
+			</div>
+		</div>
+		<script>
+			function myFunction() {
+			 	document.getElementById('appactive').classList.toggle("show");
+			}
+
+			window.onclick = function(event) {
+  			if (!event.target.matches('.grid')) {
+					if (document.getElementById('appactive').classList.contains('show')) {
+						document.getElementById('appactive').classList.toggle("show");
+					}
+  			}
+			}
+		</script>
+		<div class="apps" id="appactive">
+			<div class="services">
+				<div class="servgroup">
+					<a href="https://myaccount.google.com/intro?utm_source=OGB&tab=rk&utm_medium=app" class="servdecor">
+						<img class="app_icon" src="account.svg" >
+						<p>Аккаунт</p>
+					</a>
+					<a href="https://www.google.by/webhp?tab=rw" class="servdecor">
+						<img class="app_icon" src="googlesearch.svg" >
+						<p>Поиск</p>
+					</a>
+					<a href="https://www.google.by/maps?hl=ru&tab=rl" class="servdecor">
+						<img class="app_icon" src="location.svg" >
+						<p>Карты</p>
+					</a>
+					<a href="https://www.youtube.com/?gl=BY&tab=r1" class="servdecor">
+						<img class="app_icon" src="youtube.svg" >
+						<p>YouTube</p>
+					</a>
+					<a href="https://play.google.com/store?hl=ru&tab=r8" class="servdecor">
+						<img class="app_icon" src="google-play.svg" >
+						<p>Play</p>
+					</a>
+					<a href="https://www.google.com/intl/ru/gmail/about/#" class="servdecor">
+						<img class="app_icon" src="gmail.svg" >
+						<p>Почта</p>
+					</a>
+					<a href="https://apps.google.com/meet/?hs=197" class="servdecor">
+						<img class="app_icon" src="hangouts-meet.svg" >
+						<p>Meet</p>
+					</a>
+					<a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Fcontacts.google.com%2F%3Fhl%3Dru%26tab%3DrC&followup=https%3A%2F%2Fcontacts.google.com%2F%3Fhl%3Dru%26tab%3DrC&hl=ru&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="servdecor">
+						<img class="app_icon" src="google-contacts.svg" >
+						<p>Контакты</p>
+					</a>
+					<a href="https://www.google.com/intl/ru/drive/" class="servdecor">
+						<img class="app_icon" src="google-drive.svg" >
+						<p>Диск</p>
+					</a>
+					<a href="https://accounts.google.com/signin/v2/identifier?service=cl&passive=1209600&osid=1&continue=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Frender%3Ftab%3Drc&followup=https%3A%2F%2Fcalendar.google.com%2Fcalendar%2Frender%3Ftab%3Drc&scc=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="servdecor">
+	 					<img class="app_icon" src="google-calendar.svg" >
+						<p>Календарь</p>
+					</a>
+					<a href="https://translate.google.by/?hl=ru&tab=rT" class="servdecor">
+						<img class="app_icon" src="translate.svg" >
+						<p>Переводчик</p>
+					</a>
+					<a href="https://www.google.com/photos/about/" class="servdecor">
+						<img class="app_icon" src="google-photos.svg" >
+						<p>Фото</p>
+					</a>
+					<a href="https://duo.google.com/about/?usp=duo_ald" class="servdecor">
+						<img class="app_icon" src="google-duo.svg" >
+						<p>Duo</p>
+					</a>
+				</div>
+				<div class="line">
+				</div>
+				<div class="servgroup">
+					<a href="https://accounts.google.com/signin/v2/identifier?service=wise&passive=1209600&continue=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fcreate%3Fusp%3Ddocs_alc&followup=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fcreate%3Fusp%3Ddocs_alc&ltmpl=docs&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="servdecor">
+						<img class="app_icon" src="google-docs.svg" >
+						<p>Документы</p>
+					</a>
+					<a href="https://accounts.google.com/signin/v2/identifier?service=wise&passive=1209600&continue=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fcreate%3Fusp%3Dsheets_alc&followup=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fcreate%3Fusp%3Dsheets_alc&ltmpl=sheets&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="servdecor">
+						<img class="app_icon" src="google-sheets.svg" >
+						<p>Таблицы</p>
+					</a>
+					<a href="https://accounts.google.com/signin/v2/identifier?service=wise&passive=1209600&continue=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fcreate%3Fusp%3Dslides_alc&followup=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fcreate%3Fusp%3Dslides_alc&ltmpl=slides&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="servdecor">
+						<img class="app_icon" src="documents.svg" >
+						<p>Презентации</p>
+					</a>
+					<a href="https://www.blogger.com/about/?tab=wj&bpli=1" class="servdecor">
+						<img class="app_icon" src="blog.svg" >
+						<p>Blogger</p>
+					</a>
+					<a href="https://hangouts.google.com/" class="servdecor">
+						<img class="app_icon" src="google-hangouts.svg" >
+						<p>Hangouts</p>
+					</a>
+					<a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Fkeep.google.com%2F&followup=https%3A%2F%2Fkeep.google.com%2F&ltmpl=keep&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="servdecorkeep">
+						<img class="app_icon" src="google-keep.svg" >
+						<p>Google Keep</p>
+					</a>
+					<a href="https://accounts.google.com/signin/v2/identifier?service=jamboardcore&passive=1209600&continue=https%3A%2F%2Fjamboard.google.com%2F%3Fusp%3Djam_ald&followup=https%3A%2F%2Fjamboard.google.com%2F%3Fusp%3Djam_ald&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="servdecor">
+						<img class="app_icon" src="jamboard.svg" >
+						<p>Jamboard</p>
+					</a>
+					<a href="https://earth.google.com/web/" class="servdecorearth">
+						<img class="app_icon" src="google-earth.svg" >
+						<p>Планета Земля</p>
+						</a>
+					<a href="https://www.google.by/save" class="servdecor">
+						<img class="app_icon" src="save.svg" >
+						<p>Подборки</p>
+					</a>
+					<a href="https://artsandculture.google.com/?hl=ru" class="servdecorart">
+						<img class="app_icon" src="paint.svg" >
+						<p>Google Искусство и культура</p>
+					</a>
+				</div>
+				<div class="app_butt">
+					<a href="https://about.google/intl/ru/products/?tab=wh" class="otherapp">
+						Другие приложения и продукты от Google
+					</a>
+				</div>
+			</div>
+		</div>
+		<section>
+			<div class="logo">
+				<img class="mainlogo" src="googlelogo.png">
+			</div>
+			<div class="searchmenu">
+				<img class="loupe" src="loupe.svg">
+				<input class="search" type="text">
+				<img class="keyboard" src="keyboard.svg" title="Экранная клавиатура">
+				<img class="micro" src="microphone.svg" title="Голосовой поиск">
+			</div>
+			<div class="buttons">
+				<div class="pushbutton">
+					Поиск в Google
+				</div>
+				<div class="pushbutton">
+					Мне повезет!
+				</div>
+			</div>
+			<div class="language">
+				Сервисы Google доступны на разных языках:
+				<a href="https://www.google.by" class="languageswitch">Беларуская</a>
+			</div>
+		</section>
+		<footer>
+			<div class="country">
+				Беларусь
+			</div>
+			<div class="list">
+				<div class="offer">
+					<a href="https://ads.google.com/intl/ru_by/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="option">Реклама</a>
+					<a href="https://www.google.by/intl/ru/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" class="option">Для бизнеса</a>
+					<a href="https://about.google/?utm_source=google-BY&utm_medium=referral&utm_campaign=hp-footer&fg=1" class="option">Всё о Google</a>
+					<a href="https://www.google.com/search/howsearchworks/?fg=1" class="option">Как работает Google Поиск</a>
+				</div>
+				<div class="offer">
+					<a href="https://policies.google.com/privacy?fg=1" class="option">Конфиденциальность</a>
+					<a href="https://policies.google.com/terms?fg=1" class="option">Условия</a>
+					<a href="#" class="option">Настройки</a>
+				</div>
+			</div>
+		</footer>
+	</content>
+</body>
+</html>
